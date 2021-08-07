@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 304386f4d321d804ea0c0e29e9dc1fd7
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Armour
+    second: {fileID: 2100000, guid: 212b454eae99f8f4da45af4964bc3cf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Armour_Arm_L
+    second: {fileID: 2100000, guid: 0ff0c3071ac9f294484475dc5ad175af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Armour_Arm_R
+    second: {fileID: 2100000, guid: a4eb091e5a781624e9ac8ffebe766404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Armour_Hip_Middle
+    second: {fileID: 2100000, guid: a0427837ff106f941af0d66e921eb66e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Armour_Hip_SideL
+    second: {fileID: 2100000, guid: 1ba5a09e4a9136740ac2f36b96b8ff36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Armour_LegL
+    second: {fileID: 2100000, guid: 5bbb6d003a3923b42ae6873b27fe7956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Body
+    second: {fileID: 2100000, guid: 05b77bd3f7b9339449f1be6d7bdb4373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Eyes_White
+    second: {fileID: 2100000, guid: 4092c70b217fba446a6085a5f3c70008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Horns
+    second: {fileID: 2100000, guid: 969b924e43979954d9bd9431a760fbb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Nails
+    second: {fileID: 2100000, guid: baacecde9cd920e46bd18fedd01f009a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmL_UV_M_Armour_BaseColor
+    second: {fileID: 2800000, guid: 7e2e62106d95ad24fa9ebad131b5a45a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmL_UV_M_Armour_Metalness
+    second: {fileID: 2800000, guid: e60496c965763434b8e73d526c083384, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmL_UV_M_Armour_Normal
+    second: {fileID: 2800000, guid: bfe9c471ad8fcab4caf86d839a940e72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmL_UV_M_Armour_Roughness
+    second: {fileID: 2800000, guid: 5b0a068e169f16e469e26c06c1ca1eff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmR_UV_M_Armour_Arm_R_BaseColor
+    second: {fileID: 2800000, guid: 0a1d18b0fca00ec45afd341fc0a5556c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmR_UV_M_Armour_Arm_R_Metalness
+    second: {fileID: 2800000, guid: 19fb4d7617b949d4cb9bc6044aeb97ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmR_UV_M_Armour_Arm_R_Normal
+    second: {fileID: 2800000, guid: 154426b92b7e23a4f9a05f8d9c8cd5fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Amour_ArmR_UV_M_Armour_Arm_R_Roughness
+    second: {fileID: 2800000, guid: 6a40fa430675b0c4cb2f3ea247ea3fa6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_Middle_UV_M_Armour_BaseColor
+    second: {fileID: 2800000, guid: 44da3ec9ec48cc749bd09eceaad247fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_Middle_UV_M_Armour_Metalness
+    second: {fileID: 2800000, guid: 2e13a8b5d418f9a49af0e13e810bddcf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_Middle_UV_M_Armour_Normal
+    second: {fileID: 2800000, guid: 6c2c94e94c938d048aad770a84302466, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_Middle_UV_M_Armour_Roughness
+    second: {fileID: 2800000, guid: 48fc78ae37a29934bb68321fd0c820e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_SideL_UV_M_Armour_BaseColor
+    second: {fileID: 2800000, guid: a933603fbd6c9aa46bfc2b3dc1efaa1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_SideL_UV_M_Armour_Metalness
+    second: {fileID: 2800000, guid: b53a9d72ec38f8845979e6ff023886a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_SideL_UV_M_Armour_Normal
+    second: {fileID: 2800000, guid: 0d275fdaa1d967140b3ca2f7788cff1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_Hip_SideL_UV_M_Armour_Roughness
+    second: {fileID: 2800000, guid: cbda034cf5d10a3448dd0071334585d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_LegL_UV_M_Armour_BaseColor
+    second: {fileID: 2800000, guid: d4e72304d1eb5014f8216dfbb6a99061, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_LegL_UV_M_Armour_Metalness
+    second: {fileID: 2800000, guid: 88221db76c94f874ab0ce273a99cc943, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_LegL_UV_M_Armour_Normal
+    second: {fileID: 2800000, guid: 58185d7b57b59824cbcbbec9488f038d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Armour_LegL_UV_M_Armour_Roughness
+    second: {fileID: 2800000, guid: 717784222080ffd48865cf208dd0619b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_Eyes_UV_M_Eyes_White_BaseColor
+    second: {fileID: 2800000, guid: e2aa4eb9ee7aec24e84761691ef1a084, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_Eyes_UV_M_Eyes_White_Metalness
+    second: {fileID: 2800000, guid: 1669e8adef2bb5241938871e645a9e54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_Eyes_UV_M_Eyes_White_Normal
+    second: {fileID: 2800000, guid: 53e17c456c5797c40a7239ee9ef7aead, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_Eyes_UV_M_Eyes_White_Roughness
+    second: {fileID: 2800000, guid: 9ceee24bf50e983429d5c4d1e196f8b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Body_BaseColor
+    second: {fileID: 2800000, guid: bfe54ee883f1fac49b523a0fbc3774d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Body_Normal
+    second: {fileID: 2800000, guid: 9eb75d9531097ae4ca0a8c6385c62302, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Body_Roughness
+    second: {fileID: 2800000, guid: 87eeb5d9c0e7a2f47a29679dbb4dff68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Horns_BaseColor
+    second: {fileID: 2800000, guid: 5334be7d81e9e4d4288ace087ff80bc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Horns_Metalness
+    second: {fileID: 2800000, guid: 653b4d986f982a944a87d4f793f4202a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Horns_Normal
+    second: {fileID: 2800000, guid: c40e02ae57448834994fc9c19129f2fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Horns_Roughness
+    second: {fileID: 2800000, guid: ac08ff1d8dae346479e3088da1e67194, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Nails_BaseColor
+    second: {fileID: 2800000, guid: 9bbf380b6059b294f8b52d49cf8ea259, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Nails_Metalness
+    second: {fileID: 2800000, guid: 6a38f9746c311944383233f42d9205b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Nails_Normal
+    second: {fileID: 2800000, guid: f0dd59b0a1789934293a9ebedb7e04fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Demon_UV_M_Nails_Roughness
+    second: {fileID: 2800000, guid: f1f217683bcc09f458d91aaf5d9bfe92, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
