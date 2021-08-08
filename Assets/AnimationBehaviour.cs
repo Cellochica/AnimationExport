@@ -23,6 +23,11 @@ public class AnimationBehaviour : MonoBehaviour
             //set to walk
             m_Animator.SetTrigger("walk");
         }
+        else if(Input.GetKey(KeyCode.R))
+        {
+            //set to run
+            m_Animator.SetTrigger("run");
+        }
         else
         {
             m_Animator.SetTrigger("idle");
