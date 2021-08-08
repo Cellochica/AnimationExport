@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimationBehaviour : MonoBehaviour
 {
 
-    Animator m_Animator;
+    public Animator m_Animator;
     // Start is called before the first frame update
 
     //create controls to control demon model
@@ -18,20 +18,32 @@ public class AnimationBehaviour : MonoBehaviour
     void Update()
     {
         //if button pressed set trigger
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.W))
         {
             //set to walk
             m_Animator.SetTrigger("walk");
         }
-        else if(Input.GetKey(KeyCode.R))
+        else if (Input.GetKey(KeyCode.R))
         {
             //set to run
             m_Animator.SetTrigger("run");
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            //set to attack
+            m_Animator.SetTrigger("attack");
         }
         else
         {
             m_Animator.SetTrigger("idle");
         }
+        if (Input.GetKey("escape"))
+        {
+            //set to walk
+            Application.Quit();
+        }
 
     }
 }
+
+
