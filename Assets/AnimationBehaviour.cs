@@ -33,6 +33,11 @@ public class AnimationBehaviour : MonoBehaviour
             //set to attack
             m_Animator.SetTrigger("attack");
         }
+        else if (Input.GetKey(KeyCode.E))
+        {
+            //set to jump
+            m_Animator.SetTrigger("jump");
+        }
         else
         {
             m_Animator.SetTrigger("idle");
