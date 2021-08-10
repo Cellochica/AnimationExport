@@ -42,7 +42,8 @@ public class AnimationBehaviour : MonoBehaviour
         {
             m_Animator.SetTrigger("idle");
         }
-        if (Input.GetKey("escape"))
+
+        if (Input.GetKey(KeyCode.Escape))
         {
             //set to walk
             Application.Quit();
